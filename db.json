@@ -1,0 +1,454 @@
+{
+  "store": [
+    {
+      "address": "3368 Fulton Street",
+      "store_name": "3368 Cypress Deli & Grocery",
+      "zipcode": "11208"
+    },
+    {
+      "address": "1203 Sutter Avenue",
+      "store_name": "Apple Deli and Grill",
+      "zipcode": "11208"
+    },
+    {
+      "address": "1211 Liberty Avenue",
+      "store_name": "Bangla Supermarket",
+      "zipcode": "11208"
+    },
+    {
+      "address": "241 Ridgewood Avenue",
+      "store_name": "Claribel Deli & Grocery",
+      "zipcode": "11208"
+    },
+    {
+      "address": "224 Lincoln Avenue",
+      "store_name": "Dari's Grocery",
+      "zipcode": "11208"
+    },
+    {
+      "address": "290 Arlington Avenue",
+      "store_name": "Decayagua Deli Grocery",
+      "zipcode": "11208"
+    },
+    {
+      "address": "690 Linwood St.",
+      "store_name": "Dumont Deli & Grocery",
+      "zipcode": "11208"
+    },
+    {
+      "address": "1075 Liberty Avenue",
+      "store_name": "Four Star Supermarket",
+      "zipcode": "11208"
+    },
+    {
+      "address": "3336 Fulton St",
+      "store_name": "Fulton Gourmet Deli and Grill",
+      "zipcode": "11208"
+    },
+    {
+      "address": "1055 Blake Avenue",
+      "store_name": "J and J Grocery",
+      "zipcode": "11208"
+    },
+    {
+      "address": "944 Hegeman Avenue",
+      "store_name": "J R Grocery",
+      "zipcode": "11208"
+    },
+    {
+      "address": "1145 Glenmore Avenue",
+      "store_name": "J.T. Deli Grocery",
+      "zipcode": "11208"
+    },
+    {
+      "address": "576 Ridgewood Avenue",
+      "store_name": "Los Chamona Deli Grocery",
+      "zipcode": "11208"
+    },
+    {
+      "address": "1082 Hegeman Avenue",
+      "store_name": "Luna Grocery",
+      "zipcode": "11208"
+    },
+    {
+      "address": "1018 Belmont Avenue",
+      "store_name": "MACO Food Corp.",
+      "zipcode": "11208"
+    },
+    {
+      "address": "145 Euclid Avenue",
+      "store_name": "Melendez Deli Grocery",
+      "zipcode": "11208"
+    },
+    {
+      "address": "1268 Sutter Avenue",
+      "store_name": "Mike's Grocery Corp.",
+      "zipcode": "11208"
+    },
+    {
+      "address": "385 Chestnut Street",
+      "store_name": "My Neighborhood Grocery",
+      "zipcode": "11208"
+    },
+    {
+      "address": "145 Ridgewood Avenue",
+      "store_name": "New Way Grocery",
+      "zipcode": "11208"
+    },
+    {
+      "address": "120 Autumn Avenue",
+      "store_name": "Reyes & G Mini Market",
+      "zipcode": "11208"
+    },
+    {
+      "address": "978 Sutter Avenue",
+      "store_name": "Sutter Grocery",
+      "zipcode": "11208"
+    },
+    {
+      "address": "2792 Fulton Street",
+      "store_name": "Almontaser Enterprises LLC",
+      "zipcode": "11207"
+    },
+    {
+      "address": "2761 Fulton Street",
+      "store_name": "Habibi Gourmet Deli",
+      "zipcode": "11207"
+    },
+    {
+      "address": "2737 Fulton Street",
+      "store_name": "J & K Grocery",
+      "zipcode": "11207"
+    },
+    {
+      "address": "2772 Fulton Street",
+      "store_name": "La Vega Grocery",
+      "zipcode": "11207"
+    },
+    {
+      "address": "99 Jamaica Avenue",
+      "store_name": "Marien Groceries Corp.",
+      "zipcode": "11207"
+    },
+    {
+      "address": "609 Wilson Avenue",
+      "store_name": "One Apple Grocery Store",
+      "zipcode": "11207"
+    },
+    {
+      "address": "100 Cooper Street",
+      "store_name": "Plaza Meat Market",
+      "zipcode": "11207"
+    },
+    {
+      "address": "2949 Fulton Street",
+      "store_name": "Shorty Meat Farm",
+      "zipcode": "11207"
+    },
+    {
+      "address": "200 Jamaica Avenue",
+      "store_name": "Sunny Supermarket",
+      "zipcode": "11207"
+    },
+    {
+      "address": "2837 Fulton Street",
+      "store_name": "VLT Mini Market Inc.",
+      "zipcode": "11207"
+    },
+    {
+      "address": "305 Jerome St",
+      "store_name": "Angelic Grocery and Deli Corp",
+      "zipcode": "11207"
+    },
+    {
+      "address": "2303 Pitkin Avenue",
+      "store_name": "Dama Food Market",
+      "zipcode": "11207"
+    },
+    {
+      "address": "731 Schenck Avenue",
+      "store_name": "Danilo's Corp Deli Grocery",
+      "zipcode": "11207"
+    },
+    {
+      "address": "710 Georgia Avenue",
+      "store_name": "George Deli & Grocery",
+      "zipcode": "11207"
+    },
+    {
+      "address": "653 Liberty Avenue",
+      "store_name": "JLC Deli Grocery",
+      "zipcode": "11207"
+    },
+    {
+      "address": "772 Sutter Avenue",
+      "store_name": "Melissa Meat Market",
+      "zipcode": "11207"
+    },
+    {
+      "address": "570 Van Siclen Avenue",
+      "store_name": "Quezada Deli Grocery",
+      "zipcode": "11207"
+    },
+    {
+      "address": "772 Miller Avenue",
+      "store_name": "Sajoma Deli Grocery",
+      "zipcode": "11207"
+    },
+    {
+      "address": "207 Hull Street",
+      "store_name": "VA Grocery & Deli Corp  \n(Brother's Mini Market)",
+      "zipcode": "11207"
+    },
+    {
+      "address": "269 Dumont Ave",
+      "store_name": "3 Sisters Deli Grocery",
+      "zipcode": "11212"
+    },
+    {
+      "address": "702 Rockaway Ave",
+      "store_name": "702 Livonia Ave Deli",
+      "zipcode": "11212"
+    },
+    {
+      "address": "241 Blake Ave",
+      "store_name": "Chester Food Market",
+      "zipcode": "11212"
+    },
+    {
+      "address": "666 Rockaway Ave",
+      "store_name": "MJT Grocery Store",
+      "zipcode": "11212"
+    },
+    {
+      "address": "578 Rockaway Ave",
+      "store_name": "Blessings Food Corp.",
+      "zipcode": "11212"
+    },
+    {
+      "address": "674 Rockaway Ave",
+      "store_name": "Rockaway Deli Food Corp.",
+      "zipcode": "11212"
+    },
+    {
+      "address": "774 Rockaway Ave",
+      "store_name": "El Especial Deli & Gril",
+      "zipcode": "11212"
+    },
+    {
+      "address": "784 Saratoga Ave",
+      "store_name": "Friendly Food & Grocery",
+      "zipcode": "11212"
+    },
+    {
+      "address": "245 Riverdale Ave",
+      "store_name": "Sanaa Express Grocery",
+      "zipcode": "11212"
+    },
+    {
+      "address": "381 Mother Gaston Blvd",
+      "store_name": "Cherry Valley",
+      "zipcode": "11212"
+    },
+    {
+      "address": "174 Blake Ave",
+      "store_name": "Jamao Grocery",
+      "zipcode": "11212"
+    },
+    {
+      "address": "57 Sutter Ave",
+      "store_name": "Los Primos Grocery",
+      "zipcode": "11212"
+    },
+    {
+      "address": "39 Lott",
+      "store_name": "39 Lott Grocery",
+      "zipcode": "11212"
+    },
+    {
+      "address": "51 Hegeman Ave",
+      "store_name": "51 Deli & Grocery NYC",
+      "zipcode": "11212"
+    },
+    {
+      "address": "77 Hegeman Ave",
+      "store_name": "77 Hegeman Mini Market",
+      "zipcode": "11212"
+    },
+    {
+      "address": "55 Hegeman Ave",
+      "store_name": "Glen Deli & Grocery",
+      "zipcode": "11212"
+    },
+    {
+      "address": "103 Hegeman Ave",
+      "store_name": "Associated supermarket",
+      "zipcode": "11212"
+    },
+    {
+      "address": "1111 Rutland Rd",
+      "store_name": "Hidayat Deli Grocery",
+      "zipcode": "11212"
+    },
+    {
+      "address": "1067 Rutland Rd",
+      "store_name": "T&L Deli & Grocery",
+      "zipcode": "11212"
+    },
+    {
+      "address": "80 East 93Rd St",
+      "store_name": "Bravo Supermarket",
+      "zipcode": "11212"
+    },
+    {
+      "address": "190 East 98th St",
+      "store_name": "Associated Supermarket",
+      "zipcode": "11212"
+    },
+    {
+      "address": "9424 Kings Highway",
+      "store_name": "Boston MiniMarket",
+      "zipcode": "11212"
+    },
+    {
+      "address": "1125 Clarkson Ave",
+      "store_name": "Clarkson Food",
+      "zipcode": "11212"
+    },
+    {
+      "address": "1167 Lenox Rd",
+      "store_name": "New Way Supermarket",
+      "zipcode": "11212"
+    },
+    {
+      "address": "994 Winthrop St",
+      "store_name": "Star Two Deli",
+      "zipcode": "11212"
+    },
+    {
+      "address": "9527 Church Ave",
+      "store_name": "Ameer Food Market",
+      "zipcode": "11212"
+    },
+    {
+      "address": "1093 Linden Blvd",
+      "store_name": "El Flaco Food",
+      "zipcode": "11212"
+    },
+    {
+      "address": "1157 Willmohr St",
+      "store_name": "La Linda Deli Grocery",
+      "zipcode": "11212"
+    },
+    {
+      "address": "9323 Church Ave",
+      "store_name": "9323 Linden Deli Food",
+      "zipcode": "11212"
+    },
+    {
+      "address": "420B Mother Gaston Blvd",
+      "store_name": "420 Royal Deli",
+      "zipcode": "11212"
+    },
+    {
+      "address": "441 Mother Gaston Blvd",
+      "store_name": "Leonardo Deli Grocery",
+      "zipcode": "11212"
+    },
+    {
+      "address": "29 Belmont Ave",
+      "store_name": "C-Town",
+      "zipcode": "11212"
+    },
+    {
+      "address": "113 Belmont Ave",
+      "store_name": "Moreno Mini Market",
+      "zipcode": "11212"
+    },
+    {
+      "address": "1861 Pitkin Ave",
+      "store_name": "Bridge Deli & Grocery",
+      "zipcode": "11212"
+    },
+    {
+      "address": "1540 East New York Ave",
+      "store_name": "Eye Deli & Grocery",
+      "zipcode": "11212"
+    },
+    {
+      "address": "112 Watkins St",
+      "store_name": "Family Express Deli & Grocery",
+      "zipcode": "11212"
+    },
+    {
+      "address": "1569 E New York Ave",
+      "store_name": "Golden Deli",
+      "zipcode": "11212"
+    },
+    {
+      "address": "1788 Pitkin Ave",
+      "store_name": "New Friends Gourmet Deli",
+      "zipcode": "11212"
+    },
+    {
+      "address": "78 Thatford Ave",
+      "store_name": "Yoha Mini Market",
+      "zipcode": "11212"
+    },
+    {
+      "address": "1801 Pitkin Ave",
+      "store_name": "Pitikin Ave Deli & Grocery",
+      "zipcode": "11212"
+    },
+    {
+      "address": "1488 Pitkin Ave",
+      "store_name": "Ideal Food Basket",
+      "zipcode": "11212"
+    },
+    {
+      "address": "1419 E New York Ave",
+      "store_name": "Caba Deli Grocery",
+      "zipcode": "11212"
+    },
+    {
+      "address": "38 Herzl St",
+      "store_name": "El Cibao",
+      "zipcode": "11212"
+    },
+    {
+      "address": "256 Livonia Ave",
+      "store_name": "Shop Fair Supermarket",
+      "zipcode": "11212"
+    },
+    {
+      "address": "417 Junius St",
+      "store_name": "Food Bazaar",
+      "zipcode": "11212"
+    },
+    {
+      "address": "455 Sutter Ave",
+      "store_name": "Pioneer Supermarket",
+      "zipcode": "11212"
+    },
+    {
+      "address": "44 New Lots Ave",
+      "store_name": "Airon Food Market",
+      "zipcode": "11212"
+    },
+    {
+      "address": "1697 E New York Ave",
+      "store_name": "Giselle Mini Market",
+      "zipcode": "11212"
+    },
+    {
+      "address": "323 Powell St",
+      "store_name": "Powell Supermarket",
+      "zipcode": "11212"
+    },
+    {
+      "address": "229 Tapscott St",
+      "store_name": "Green Village Meat Farm",
+      "zipcode": "11212"
+    }
+  ]
+}

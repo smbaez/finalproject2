@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/superagent/3.8.3/superagent.min.js"></script>
+  <script src="http://maps.google.com/maps/api/js?key=AIzaSyARxs_0QWBQzZ-7tnFIkcz6Tzh5Fr1I0xg"></script>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Settling Up</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/full-width-pics.css" rel="stylesheet">
+  <style>
+  .slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;   
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}</style>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">Settling Up</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Project Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="finder.html">Find Your Neighborhood!</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header - set the background image for the header in the line below -->
+  <header class="py-5 bg-image-full" style="height: 300px; background-image: url('/img/buildings.jpg');">
+    <!-- <img class="img-fluid d-block mx-auto" src="http://placehold.it/200x200&text=Logo" alt=""> -->
+  </header>
+
+  <!-- Content section -->
+  <section class="py-5">
+    <div class="container" align="center">
+      <h1 style="text-align:center">What Makes Your Dream Neighborhood?</h1>
+      <p class="lead" style="text-align:center">Rank the following neighborhood features on a percentage scale of 1 to 100, where 0% indicates zero interest in a given feature and 100% indicates utmost importance to your decision-making. </p><br><br>
+      
+      <section class="py-5 bg-image-full" style="background-image: url('/img/lib.jpg');">
+        <div style="height: 200px;"></div>
+      </section>
+      <br><p style="text-align:center; font-size:150%">Public Libraries</p>
+    
+      <!--MY CODE-->
+      <div class="slidecontainer"> 
+        <p style="text-align:center">The Brooklyn Public Library is one of three separate and independent public library systems in New York City. The other two are the New York Public Library (NYPL), serving the Bronx, Manhattan, and Staten Island, and the Queens Public Library, serving Queens. The BPL is the fifth largest public library system in the United States and is a leader in cultural offerings, literacy, after-school services, workforce development programs, and digital literacy. In 2016, BPL was awarded an IMLS National Medal for Museum and Library Service, the nation’s highest honor for museum and libraries. This achievement was due to the BPL's Outreach Services department and its efforts to serve Brooklyn’s most vulnerable populations.</p>
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+      </div><br>
+      <div align="center">
+      <textarea style="text-align:center" id ="libField">Libraries</textarea>
+      </div>
+      <div><br></div>
+    
+      <section class="py-5 bg-image-full" style="background-image: url('/img/park.jpg');">
+        <div style="height: 200px;"></div>
+      </section>
+      <br><p style="text-align:center; font-size:150%">Parks</p>
+      <div class="slidecontainer"> 
+          <p style="text-align:center">With nearly 30,000 acres of land, NYC Parks is home to free concerts, sports events, recreational and athletic facilities, and cultural festivals. Whether you prefer to rest and relax, feel closer to nature, or to exercise, there is a park for you in the midst of the concrete jungle that is New York City. Brooklyn is home to some of the most beautiful parks in the city; notable mentions include Brooklyn Bridge's waterfront park, and Prospect Park, a 585-acre oasis that attracts over one million visitors each year. It features a zoo, playgrounds, ball fields, an Audubon center, a vast lake, and a bandshell for outdoor concerts.</p>
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange2">
+      </div>
+      <br><div align="center">
+      <textarea style="text-align:center" id ="parkField">Parks</textarea>
+    </div>
+      <div><br></div>
+    
+      <section class="py-5 bg-image-full" style="background-image: url('/img/eco.jpg');">
+        <div style="height: 200px;"></div>
+      </section>
+      <br><p style="text-align:center; font-size:150%">GreenThumb Community Gardens</p>
+      <div class="slidecontainer">
+          <p style="text-align:center">GreenThumb was initiated in response to the city’s financial crisis of the 70s, which resulted in the abandonment of public and private land. The majority of GreenThumb gardens were derelict vacant lots renovated by volunteers. Located in all five boroughs, these community gardens are now managed by neighborhood residents and provide important green space, thus improving air quality, bio–diversity, and the well–being of residents. Some are green spaces meant for relaxation and as a community meeting space, others are full–fledged farms, and many are a mix of the types. The volunteer gardeners are the backbone of the program and are of diverse ages and backgrounds. GreenThumb provides programming and material support to over 550 community gardens in New York City. Workshops, which are the access point for supplies, are held every month of the year, covering gardening basics to more advanced farming and community organizing topics</p>
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange3">
+      </div>
+      <br><div align="center">
+      <textarea style="text-align:center" id="gardenField">Gardens</textarea></div>
+      <div><br></div>
+
+      <section class="py-5 bg-image-full" style="background-image: url('/img/artex.jpg');">
+        <div style="height: 200px;"></div>
+      </section>
+      <br><p style="text-align:center; font-size:150%">Art Galleries</p>
+      <div class="slidecontainer">
+          <p style="text-align:center">Where art and design are concerned, Brooklyn is one of the best places in the world to go to. World-class collections fill the walls of institutions like the Brooklyn Museum. Showcases at design schools like Pratt give talented budding artists exposure and experience. The borough is also home to dozens upon dozens of galleries displaying all manner of art you can imagine. In recent years, many of Brooklyn's neighborhoods have become well known for their funky modern art that especially attracts young hipster visitors around the world. If you’re looking to add to your personal collections or simply wander through aisles in awe, Brooklyn's art galleries should be on your radar.</p>
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange4">
+      </div>
+      <br><div align="center">
+      <textarea style="text-align:center" id="artField">Art Galleries</textarea></div>
+      <div><br></div>
+
+      <section class="py-5 bg-image-full" style="background-image: url('/img/health.jpg');">
+        <div style="height: 200px;"></div>
+      </section>
+      <br><p style="text-align:center; font-size:150%">Recognized Shop Healthy Stores</p>
+      <div class="slidecontainer"> 
+          <p style="text-align:center">Each year, bodegas and grocery stores located in and around Action Centers participate in the Shop Healthy NYC program's Retail Challenge to increase (1) availability of healthier foods, such as low-sodium canned goods, healthier snacks and deli options; (2) promotion of healthier foods by posting Shop Healthy marketing materials for healthier foods and removing unhealthy advertising; and (3) visibility of healthier foods by placing them in more prominent locations, such as placing produce at the checkout counter or near the front entrance of the store, and water and other low-calorie drinks at eye-level. Stores that have implemented all of the program’s criteria at the conclusion of the Retail Challenge, and maintain them for at least one month, receive a recognition award to acknowledge their efforts and dedication to make the healthy choice for their communities.</p>
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange5">
+      </div>
+      <br><div align="center">
+      <textarea style="text-align:center" id="storeField">Recognized Shop Healthy Stores</textarea></div>
+      <div><br></div>
+    
+      <br><br><br>
+      <div align="center">
+      <button id="btnn" onclick="myFunction()">Generate Best Neighborhoods</button></div></br></br>
+      <div id ="createStatus"></div>
+      <div><br><br></div>
+      <div align="center">
+      <button id="btnn2" onclick="reveal()">Display Areas</button></div>
+    </div>
+      <br><div id="map" align="center" style="width:100%; height:768px"></div>
+    
+    <script>
+      var slider = document.getElementById("myRange");
+      var output = document.getElementById("libField");
+      output.innerHTML = slider.value; 
+      slider.oninput = function() {
+        output.innerHTML = this.value;
+      }
+      
+      var slider2 = document.getElementById("myRange2");
+      var output2 = document.getElementById("parkField");
+      output2.innerHTML = slider2.value;
+      slider2.oninput = function(){
+          output2.innerHTML = this.value;
+      }
+      
+      var slider3 = document.getElementById("myRange3");
+      var output3 = document.getElementById("gardenField");
+      output3.innerHTML = slider3.value;
+      slider3.oninput = function(){
+          output3.innerHTML = this.value;
+      }
+      
+      var slider4 = document.getElementById("myRange4");
+      var output4 = document.getElementById("artField");
+      output4.innerHTML = slider4.value;
+      slider4.oninput = function(){
+          output4.innerHTML = this.value;
+      }
+
+      var slider5 = document.getElementById("myRange5");
+      var output5 = document.getElementById("storeField");
+      output5.innerHTML = slider5.value;
+      slider5.oninput = function(){
+          output5.innerHTML = this.value;
+      }
+      </script>
+      <script>
+
+        function myFunction() {
+        var library = document.getElementById('libField').value;
+        var park = document.getElementById('parkField').value;
+        var garden= document.getElementById('gardenField').value;
+        var gallery= document.getElementById('artField').value;
+        var store = document.getElementById('storeField').value;
+        var status   = document.getElementById('createStatus');
+        
+        var url = '/data/' + library + '/'+ park+ '/'+ garden+ '/'+ gallery+ '/'+ store;
+        
+        superagent
+               .get(url)
+               .end(function(err, res){
+                   if (err) {
+                       console.log(err);
+                   } else {
+                       console.log(res.text);
+                       status.innerHTML = res.text;
+                       //status.innerHTML = res.text; //response coming back, can draw it on the map later
+                   }
+        });
+        
+        };
+        
+        </script>
+        <script>
+        var map;
+        var myZips = [11212, 11213, 11216, 11233, 11238, 11209, 11214, 11228, 11204, 11218, 11219, 11230, 11234, 11236, 11239, 11223, 11224, 11229, 11235, 11201, 11205, 11215, 11217, 11231, 11203, 11210, 11225, 11226, 11207, 11208, 11211, 11222, 11220, 11232, 11206, 11221, 11237]
+        
+        function init(){
+          var myOptions = {
+            zoom      : 12,
+            center    : { lat:40.6782,lng:-73.9442},
+            mapTypeId : google.maps.MapTypeId.ROADMAP
+          };
+          var element = document.getElementById('map');
+            map = new google.maps.Map(element, myOptions);
+        }
+        window.onload = init;
+        
+
+
+        function reveal(){
+            var bigString= document.getElementById('createStatus').innerHTML
+            map.data.loadGeoJson(bigString.substring(3,8) + '.json');
+            map.data.loadGeoJson(bigString.substring(15,20) + '.json');
+            console.log(bigString.substring(26,31))
+            map.data.loadGeoJson(bigString.substring(26,31) + '.json');
+            map.data.setStyle(function(feature) {
+              color = feature.getProperty('color');
+              //zipp = feature.getProperty('postalcode');
+              return ( {
+                fillColor : color,
+                strokeColor : color,
+                strokeWeight : 2,
+             });
+            });
+        }
+        </script>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white"></p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
